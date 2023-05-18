@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "OpenAlbion is a free and open-source platform providing Albion Online data and an API.",
+  "main": "index.js",
+  "authors": {
+    "name": "Pyae Sone Aung",
+    "email": "pyaesoneaungrgn@gmail.com"
+  },
+  "repository": "https://github.com/OpenAlbion/docs/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
