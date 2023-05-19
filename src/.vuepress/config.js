@@ -79,6 +79,7 @@ module.exports = {
           children: [
             'categories',
             'weapons',
+            'armors',
             'weapon-stats',
             'spells'
           ]
