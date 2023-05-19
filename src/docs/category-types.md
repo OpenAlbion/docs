@@ -4,5 +4,5 @@
 | :------------- | :------------- |
 | weapon | Weapon |
 | armor | Armor |
-| accessories | Accessories |
-| mounts | Mounts |
+| accessory | Accessories |
+| mount | Mounts |
