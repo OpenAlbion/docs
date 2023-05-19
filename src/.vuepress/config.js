@@ -19,6 +19,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'icon', href: '/openalbion.png' }],
     ['meta', { name: 'description', content: 'OpenAlbion is a free and open-source platform providing Albion Online data and an API.' }]
   ],
 
@@ -33,13 +34,18 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    algolia: {
+      apiKey: '4d407fe5bd0bcaa84d2e8d897eaae56c',
+      indexName: 'openalbion',
+      appId: 'Y0EIQ1U6A8'
+    },
     nav: [
       {
         text: 'Docs',
         link: '/docs/',
       },
       {
-        text: 'Api Token',
+        text: 'API Token',
         link: 'https://api.openalbion.com'
       }
     ],
