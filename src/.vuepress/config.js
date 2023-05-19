@@ -20,7 +20,21 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'icon', href: '/openalbion.png' }],
-    ['meta', { name: 'description', content: 'OpenAlbion is a free and open-source platform providing Albion Online data and an API.' }]
+    ['meta', { name: 'description', content: 'OpenAlbion is a free and open-source platform providing Albion Online data and an API.' }],
+    [
+      'script',
+      {
+          async: true,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-VFJWJN8CJF',
+      },
+    ],
+    [
+      'script',
+      {},
+      [
+          "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-VFJWJN8CJF');",
+      ],
+    ],
   ],
 
   /**
