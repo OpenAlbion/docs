@@ -5,7 +5,7 @@
 Retrieve information about spells by weapon.
 
 - Method: GET
-- Endpoint: `https://api.openalbion.com/api/v1/spells/weapon/{weapon_id}`
+- Endpoint: **https://api.openalbion.com/api/v1/spells/weapon/{weapon_id}**
 
 Example Request:
 ```http

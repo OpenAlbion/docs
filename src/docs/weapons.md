@@ -5,7 +5,7 @@
 Retrieve information about weapons.
 
 - Method: GET
-- Endpoint: `https://api.openalbion.com/api/v1/weapons`
+- Endpoint: **https://api.openalbion.com/api/v1/weapons**
 
 Example Request:
 ```http
@@ -40,7 +40,7 @@ Example Response:
 Retrieve information about weapons by category.
 
 - Method: GET
-- Endpoint: `https://api.openalbion.com/api/v1/weapons`
+- Endpoint: **https://api.openalbion.com/api/v1/weapons**
 - Query Parameters:
   - `category_id`: Filter the weapons by category. Example: `1`
 
@@ -77,7 +77,7 @@ Example Response:
 Retrieve information about weapons by subcategory.
 
 - Method: GET
-- Endpoint: `https://api.openalbion.com/api/v1/weapons`
+- Endpoint: **https://api.openalbion.com/api/v1/weapons**
 - Query Parameters:
   - `subcategory_id`: Filter the weapons by subcategory. Example: `2`
 
@@ -114,7 +114,7 @@ Example Response:
 Retrieve information about weapons by tier.
 
 - Method: GET
-- Endpoint: `https://api.openalbion.com/api/v1/weapons`
+- Endpoint: **https://api.openalbion.com/api/v1/weapons**
 - Query Parameters:
   - `tier`: Filter the weapons by tier. Example: `4`
 

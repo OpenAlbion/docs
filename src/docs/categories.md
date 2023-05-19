@@ -2,10 +2,10 @@
 
 ## Get Categories For Weapon
 
-Retrieve information about OpenAlbion's categories.
+Retrieve information about OpenAlbion's categories for weapon.
 
 - Method: GET
-- Endpoint: `https://api.openalbion.com/api/v1/categories`
+- Endpoint: **https://api.openalbion.com/api/v1/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `weapon`
 
@@ -32,6 +32,42 @@ Example Response:
                     "id": 3,
                     "name": "Sword",
                     "type": "weapon"
+                },
+                {...}
+            ]
+        },
+        {...}
+    ]
+}
+```
+
+## Get Categories For Armor
+
+Retrieve information about OpenAlbion's categories for armor.
+
+- Method: GET
+- Endpoint: **https://api.openalbion.com/api/v1/categories**
+- Query Parameters:
+  - `type`: Filter the categories by type. Example: `armor`
+
+Example Request:
+```http
+GET https://api.openalbion.com/api/v1/categories?type=armor
+```
+
+Example Response:
+```json
+{
+    "data": [
+        {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor",
+            "subcategories": [
+                {
+                    "id": 24,
+                    "name": "Robes",
+                    "type": "armor"
                 },
                 {...}
             ]
