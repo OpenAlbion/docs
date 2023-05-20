@@ -25,10 +25,18 @@ Example Response:
                     "slot": "First Slot",
                     "preview": "https://wiki.albiononline.com/data/images/d/d4/Rending_Strike.gif",
                     "icon": "https://render.albiononline.com/v1/spell/Rending Strike.png?size=217&locale=en",
-                    "description": "Attack the targeted enemy, dealing 178/196 physical damage.\nApplies one Rending Bleed Charge.\nEach Rending Bleed Charge deals 83/91 over 6s (stacks up to 3 times).\nIf the maximum amount of stacks is reached, the affected enemies' Healing Received is reduced by 12% for 5s.\n\n",
-                    "description_html": "Attack the targeted enemy, dealing <span class=\"text-damage\"><i>178</i>/<i>196</i> physical damage</span>.\n<p>Applies one <b>Rending Bleed Charge</b>.\n</p><p>Each <b>Rending Bleed Charge</b> deals <span class=\"text-damage\"><i>83</i>/<i>91</i></span> over <span class=\"text-damage\">6s</span> (<b>stacks</b> up to <b>3</b> times).\n</p><p>If the <b>maximum amount</b> of <b>stacks</b> is reached, the affected enemies' <span class=\"text-debuff\">Healing Received</span> is reduced by <span class=\"text-debuff\">12%</span> for <span class=\"text-debuff\">5s</span>.\n</p>\n"
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
                 },
-                {...}
+                {
+                    "id": 2,
+                    "name": "Rending Spin",
+                    "slot": "First Slot",
+                    "preview": null,
+                    "icon": "https://render.albiononline.com/v1/spell/Rending Spin.png?size=217&locale=en",
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
+                }
             ]
         },
         {
@@ -40,10 +48,18 @@ Example Response:
                     "slot": "Second Slot",
                     "preview": "https://wiki.albiononline.com/data/images/5/5e/Deadly_Chop.gif",
                     "icon": "https://render.albiononline.com/v1/spell/Deadly Chop.png?size=217&locale=en",
-                    "description": "Strike the targeted enemy, dealing 502/551 physical damage.\nDecreases damage resistances by 48/49 for 8s.\n\n",
-                    "description_html": "Strike the targeted enemy, dealing <span class=\"text-damage\"><i>502</i>/<i>551</i> physical damage</span>.\n<p>Decreases damage <span class=\"text-debuff\">resistances by</span> <span class=\"text-debuff\"><i>48</i>/<i>49</i></span> for <span class=\"text-debuff\">8s</span>.\n</p>\n"
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
                 },
-                {...}
+                {
+                    "id": 4,
+                    "name": "Adrenaline Boost",
+                    "slot": "Second Slot",
+                    "preview": "https://wiki.albiononline.com/data/images/4/4a/Adrenaline_Boost.gif",
+                    "icon": "https://render.albiononline.com/v1/spell/Adrenaline Boost.png?size=217&locale=en",
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
+                }
             ]
         },
         {
@@ -55,8 +71,8 @@ Example Response:
                     "slot": "Third Slot",
                     "preview": "https://wiki.albiononline.com/data/images/5/55/Blood_Bandit.gif",
                     "icon": "https://render.albiononline.com/v1/spell/Blood Bandit.png?size=217&locale=en",
-                    "description": "Combine up to two abilities. The combo resets after 10s.\n1st Blood Draw\nThrow an axe in the targeted direction, dealing physical damage to all enemies hit, based on the number of Rending Bleed Charge on them.\n2nd Blood Bandit:\nThrow an axe infused with blood magic in the targeted direction, dealing 363 physical damage\nHeals you based on the number of Rending Bleed Charges on the first enemy hit.\n\nRending Bleed Charges: 0 | 1 | 2 | 3\nDamage: 578 | 660 | 743 | 825\nLifesteal: 743 | 743 | 743 | 743\n",
-                    "description_html": "Combine up to two abilities. The combo resets after <b>10s</b>.\n<p>1st <b>Blood Draw</b>\n</p><p>Throw an axe in the targeted direction, dealing <span class=\"text-damage\">physical damage</span> to all enemies hit, <span class=\"text-damage\">based</span> on the number of <span class=\"text-damage\">Rending Bleed Charge</span> on them.\n</p><p>2nd <b>Blood Bandit:</b>\n</p><p>Throw an axe infused with blood magic in the targeted direction, dealing <span class=\"text-damage\"><i>363</i> physical damage</span>\n</p><p><span class=\"text-healing\">Heals</span> you <span class=\"text-healing\">based</span> on the number of <span class=\"text-healing\">Rending Bleed Charges</span> on the first enemy hit.\n</p>\n<ul><li>Rending Bleed Charges: 0 | 1 | 2 | 3</li>\n<li>Damage: <span class=\"text-damage\"><i>578</i></span> | <span class=\"text-damage\"><i>660</i></span> | <span class=\"text-damage\"><i>743</i></span> | <span class=\"text-damage\"><i>825</i></span></li>\n<li>Lifesteal: <span class=\"text-healing\"><i>743</i></span> | <span class=\"text-healing\"><i>743</i></span> | <span class=\"text-healing\"><i>743</i></span> | <span class=\"text-healing\"><i>743</i></span></li></ul>\n"
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
                 }
             ]
         },
@@ -69,10 +85,75 @@ Example Response:
                     "slot": "Passive",
                     "preview": null,
                     "icon": "https://render.albiononline.com/v1/spell/Deep Cuts.png?size=217&locale=en",
-                    "description": "Every 4 normal attacks, inflict a bleed on the targeted enemy dealing 58 physical damage over 1.5s.\n",
-                    "description_html": "Every 4 normal attacks, inflict a bleed on the targeted enemy dealing <b>58</b> physical damage over 1.5s.\n"
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
                 },
-                {...}
+                {
+                    "id": 7,
+                    "name": "Life Leech (Axes)",
+                    "slot": "Passive",
+                    "preview": null,
+                    "icon": "https://render.albiononline.com/v1/spell/PASSIVE_HEALTHCHANCE_AXE.png?size=217&locale=en",
+                    "description": "Sanitize Spell Description",
+                    "description_html": "Sanitize Spell Description"
+                }
+            ]
+        }
+    ]
+}
+```
+
+## Get Spells By Armor
+
+Retrieve information about spells by armor.
+
+- Method: GET
+- Endpoint: **https://api.openalbion.com/api/v1/spells/armor/{armor_id}**
+
+Example Request:
+```http
+GET https://api.openalbion.com/api/v1/spells/armor/1
+```
+
+Example Response:
+```json
+{
+    "data": [
+        {
+            "slot": "Fifth Slot",
+            "spells": [
+                {
+                    "id": 261,
+                    "name": "Mend Wounds",
+                    "slot": "Fifth Slot",
+                    "preview": null,
+                    "icon": "https://render.albiononline.com/v1/spell/OUTOFCOMBATHEAL.png?size=217&locale=en",
+                    "description": "While not engaged in combat, rest while channeling for 12s.\nRestore 6% of your Max Health (not affected by your Healing Cast modifier) and 5% of your Max Energy every 1s.\n\n",
+                    "description_html": "While <b>not</b> engaged in <b>combat</b>, rest while <b>channeling</b> for <b>12s</b>.\n<p>Restore <span >6%</span> of your <span >Max Health</span> (not affected by your Healing Cast modifier) and <b>5%</b> of your <b>Max Energy</b> every <b>1s</b>.\n</p>\n"
+                },
+                {
+                    "id": 262,
+                    "name": "Frost Shield",
+                    "slot": "Fifth Slot",
+                    "preview": null,
+                    "icon": "https://render.albiononline.com/v1/spell/Frost Shield.png?size=217&locale=en",
+                    "description": "Cover yourself with a frost shield, increasing your damage resistances by 83 for 8s.\nReflects 15% of the damage you take as magical damage.\nSlows any enemy dealing damage to you by 20% for 2.56s.\n\n",
+                    "description_html": "Cover yourself with a frost shield, increasing your <span >damage resistances</span> by <span >83</span> for <span >8s</span>.<br>\n<p><span >Reflects 15%</span> of the damage you take as <span >magical damage</span>.<br>\n<span >Slows</span> any enemy dealing damage to you by <span >20%</span> for <span >2.56s.</span>\n</p>\n"
+                }
+            ]
+        },
+        {
+            "slot": "Passive",
+            "spells": [
+                {
+                    "id": 263,
+                    "name": "Aggression",
+                    "slot": "Passive",
+                    "preview": null,
+                    "icon": "https://render.albiononline.com/v1/spell/Aggression.png?size=217&locale=en",
+                    "description": "Increases your damage and heal power by 3.5%\n",
+                    "description_html": "Increases your damage and heal power by 3.5%\n"
+                }
             ]
         }
     ]

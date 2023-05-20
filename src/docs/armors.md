@@ -21,14 +21,16 @@ Example Response:
             "name": "Novice's Scholar Robe",
             "tier": "2.0",
             "item_power": 300,
-            "icon": "https://render.albiononline.com/v1/item/Novice's Scholar Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T2_ARMOR_CLOTH_SET1",
+            "icon": "https://render.albiononline.com/v1/item/T2_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en"
         },
         {
             "id": 2,
             "name": "Journeyman's Scholar Robe",
             "tier": "3.0",
             "item_power": 500,
-            "icon": "https://render.albiononline.com/v1/item/Journeyman's Scholar Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T3_ARMOR_CLOTH_SET1",
+            "icon": "https://render.albiononline.com/v1/item/T3_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en"
         },
         {...}
     ]
@@ -53,19 +55,21 @@ Example Response:
 ```json
 {
     "data": [
-         {
+        {
             "id": 1,
             "name": "Novice's Scholar Robe",
             "tier": "2.0",
             "item_power": 300,
-            "icon": "https://render.albiononline.com/v1/item/Novice's Scholar Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T2_ARMOR_CLOTH_SET1",
+            "icon": "https://render.albiononline.com/v1/item/T2_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en"
         },
         {
             "id": 2,
             "name": "Journeyman's Scholar Robe",
             "tier": "3.0",
             "item_power": 500,
-            "icon": "https://render.albiononline.com/v1/item/Journeyman's Scholar Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T3_ARMOR_CLOTH_SET1",
+            "icon": "https://render.albiononline.com/v1/item/T3_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en"
         },
         {...}
     ]
@@ -95,14 +99,16 @@ Example Response:
             "name": "Novice's Scholar Robe",
             "tier": "2.0",
             "item_power": 300,
-            "icon": "https://render.albiononline.com/v1/item/Novice's Scholar Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T2_ARMOR_CLOTH_SET1",
+            "icon": "https://render.albiononline.com/v1/item/T2_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en"
         },
         {
             "id": 2,
             "name": "Journeyman's Scholar Robe",
             "tier": "3.0",
             "item_power": 500,
-            "icon": "https://render.albiononline.com/v1/item/Journeyman's Scholar Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T3_ARMOR_CLOTH_SET1",
+            "icon": "https://render.albiononline.com/v1/item/T3_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en"
         },
         {...}
     ]
@@ -132,14 +138,16 @@ Example Response:
             "name": "Adept's Cleric Robe",
             "tier": "4.0",
             "item_power": 700,
-            "icon": "https://render.albiononline.com/v1/item/Adept's Cleric Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T4_ARMOR_CLOTH_SET2",
+            "icon": "https://render.albiononline.com/v1/item/T4_ARMOR_CLOTH_SET2@0.png?quality=0&size=217&locale=en"
         },
         {
             "id": 4,
             "name": "Adept's Cultist Robe",
             "tier": "4.0",
             "item_power": 775,
-            "icon": "https://render.albiononline.com/v1/item/Adept's Cultist Robe@0.png?quality=0&size=217&locale=en"
+            "identifier": "T4_ARMOR_CLOTH_MORGANA",
+            "icon": "https://render.albiononline.com/v1/item/T4_ARMOR_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en"
         },
         {...}
     ]
