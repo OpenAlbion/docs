@@ -79,7 +79,11 @@ Example Response:
 
 ## Get Categories For Accessory
 
-Retrieve information about OpenAlbion's categories for accessory.
+- Cape
+- Bag
+- Mount
+
+There are main three categories for accessory. 
 
 - Method: GET
 - Endpoint: **https://api.openalbion.com/api/v1/categories**
@@ -116,7 +120,31 @@ Example Response:
             "id": 36,
             "name": "Bag",
             "type": "accessory",
-            "subcategories": []
+            "subcategories": [
+                {
+                    "id": 39,
+                    "name": "Normal Bags",
+                    "type": "accessory"
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Mount",
+            "type": "accessory",
+            "subcategories": [
+                {
+                    "id": 41,
+                    "name": "Armored Horses",
+                    "type": "accessory"
+                },
+                {
+                    "id": 42,
+                    "name": "Mules",
+                    "type": "accessory"
+                },
+                {...}
+            ]
         }
     ]
 }
