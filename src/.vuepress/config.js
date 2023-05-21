@@ -82,6 +82,8 @@ module.exports = {
             'weapon-stats',
             'armors',
             'armor-stats',
+            'accessories',
+            'accessories-stats',
             'spells'
           ]
         },

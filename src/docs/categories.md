@@ -76,3 +76,48 @@ Example Response:
     ]
 }
 ```
+
+## Get Categories For Accessory
+
+Retrieve information about OpenAlbion's categories for accessory.
+
+- Method: GET
+- Endpoint: **https://api.openalbion.com/api/v1/categories**
+- Query Parameters:
+  - `type`: Filter the categories by type. Example: `accessory`
+
+Example Request:
+```http
+GET https://api.openalbion.com/api/v1/categories?type=accessory
+```
+
+Example Response:
+```json
+{
+    "data": [
+        {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory",
+            "subcategories": [
+                {
+                    "id": 37,
+                    "name": "Normal Capes",
+                    "type": "accessory"
+                },
+                {
+                    "id": 38,
+                    "name": "Faction Capes",
+                    "type": "accessory"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Bag",
+            "type": "accessory",
+            "subcategories": []
+        }
+    ]
+}
+```

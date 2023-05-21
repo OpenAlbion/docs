@@ -159,3 +159,37 @@ Example Response:
     ]
 }
 ```
+
+## Get Spells By Accessory
+
+Retrieve information about spells by accessory.
+
+- Method: GET
+- Endpoint: **https://api.openalbion.com/api/v1/spells/accessory/{accessory_id}**
+
+Example Request:
+```http
+GET https://api.openalbion.com/api/v1/spells/accessory/3
+```
+
+Example Response:
+```json
+{
+    "data": [
+        {
+            "slot": "Passive",
+            "spells": [
+                {
+                    "id": 360,
+                    "name": "Sandstorm",
+                    "slot": "Passive",
+                    "preview": null,
+                    "icon": "https://render.albiononline.com/v1/spell/Sandstorm.png?size=217&locale=en",
+                    "description": "Sandstorm is a passive ability found on the Bridgewatch Cape.",
+                    "description_html": "Sandstorm is a passive ability found on the Bridgewatch Cape."
+                }
+            ]
+        }
+    ]
+}
+```
