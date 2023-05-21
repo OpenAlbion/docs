@@ -185,8 +185,8 @@ Example Response:
                     "slot": "Passive",
                     "preview": null,
                     "icon": "https://render.albiononline.com/v1/spell/Sandstorm.png?size=217&locale=en",
-                    "description": "Sandstorm is a passive ability found on the Bridgewatch Cape.",
-                    "description_html": "Sandstorm is a passive ability found on the Bridgewatch Cape."
+                    "description": "Sandstorm is a passive ability found on the Bridgewatch Cape.\n",
+                    "description_html": "Sandstorm is a passive ability found on the <b><a href=\"/wiki/Bridgewatch_Cape\"  title=\"Bridgewatch Cape\">Bridgewatch Cape.</a></b>\n"
                 }
             ]
         }
