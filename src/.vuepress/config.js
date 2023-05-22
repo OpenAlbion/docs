@@ -59,8 +59,12 @@ module.exports = {
         link: '/docs/',
       },
       {
-        text: 'API Token',
+        text: 'Api Token',
         link: 'https://api.openalbion.com'
+      },
+      {
+        text: 'Donate',
+        link: 'https://ko-fi.com/openalbion'
       }
     ],
     sidebar: {
