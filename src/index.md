@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://api.openalbion.com/favicon.ico
+heroImage: https://res.cloudinary.com/pyaesoneaung/image/upload/v1685124260/openalbion/favicon.png
 tagline: OpenAlbion is a free and open-source platform providing Albion Online data and an API.
 actionText: Quick Start →
 actionLink: /docs/

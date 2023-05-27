@@ -1,6 +1,6 @@
 # Introduction
 
-![OpenAlbion Preview](https://api.openalbion.com/preview.png)
+![OpenAlbion Preview](https://res.cloudinary.com/pyaesoneaung/image/upload/v1685124262/openalbion/preview.png)
 
 Welcome to the OpenAlbion API documentation! This documentation provides detailed information about the OpenAlbion API endpoints, request parameters, and response formats.
 

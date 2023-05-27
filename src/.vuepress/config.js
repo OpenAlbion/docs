@@ -19,8 +19,13 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'icon', href: '/openalbion.png' }],
+    ['link', { rel: 'icon', href: 'https://res.cloudinary.com/pyaesoneaung/image/upload/v1685124260/openalbion/favicon.png' }],
     ['meta', { name: 'description', content: 'OpenAlbion is a free and open-source platform providing Albion Online data and an API.' }],
+    ['meta', { property: 'og:title', content: 'OpenAlbion' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://openalbion.com' }],
+    ['meta', { property: 'og:image', content: 'https://res.cloudinary.com/pyaesoneaung/image/upload/v1685124262/openalbion/preview.png' }],
+    ['meta', { property: 'og:description', content: 'OpenAlbion is a free and open-source platform providing Albion Online data and an API.' }],
     [
       'script',
       {
