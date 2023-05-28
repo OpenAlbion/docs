@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  repo: 'vuejs/vuepress',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -67,6 +68,10 @@ module.exports = {
         text: 'Api Token',
         link: 'https://api.openalbion.com'
       },
+      {
+        text: 'Github',
+        link: 'https://github.com/OpenAlbion/api'
+      }
       {
         text: 'Donate',
         link: 'https://ko-fi.com/openalbion'
