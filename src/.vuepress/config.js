@@ -71,7 +71,7 @@ module.exports = {
       {
         text: 'Github',
         link: 'https://github.com/OpenAlbion/api'
-      }
+      },
       {
         text: 'Donate',
         link: 'https://ko-fi.com/openalbion'
