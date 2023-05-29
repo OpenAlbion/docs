@@ -12,3 +12,7 @@ features:
 - title: Simplified Documentation
   details: Simplified Documentation for Easy Integration.
 ---
+
+::: slot footer
+MIT Licensed | Copyright © 2023-present [OpenAlbion](https://github.com/OpenAlbion)
+:::
