@@ -5,12 +5,12 @@ tagline: OpenAlbion is a free and open-source platform providing Albion Online d
 actionText: Quick Start →
 actionLink: /docs/
 features:
+- title: Active Development
+  details: Regular updates, new features, and responsive support.
 - title: Free & Unlimited Access
   details: Enjoy unrestricted access to our API at no cost.
 - title: Easy Integration
   details: Seamlessly integrate our API into your projects.
-- title: Simplified Documentation
-  details: Simplified Documentation for Easy Integration.
 ---
 
 ::: slot footer
