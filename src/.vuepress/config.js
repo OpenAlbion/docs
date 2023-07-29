@@ -69,12 +69,16 @@ module.exports = {
         link: 'https://api.openalbion.com'
       },
       {
+        text: 'Application',
+        link: 'https://play.google.com/store/apps/details?id=com.openalbion.weaponry'
+      },
+      {
         text: 'Github',
         link: 'https://github.com/OpenAlbion/api'
       },
       {
-        text: 'Donate',
-        link: 'https://ko-fi.com/openalbion'
+        text: 'Sponsor',
+        link: 'https://github.com/sponsors/OpenAlbion'
       }
     ],
     sidebar: {
@@ -98,7 +102,10 @@ module.exports = {
             'armor-stats',
             'accessories',
             'accessories-stats',
-            'spells'
+            'consumables',
+            'consumable-stats',
+            'consumable-craftings',
+            'spells',
           ]
         },
         {

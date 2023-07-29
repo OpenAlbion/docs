@@ -5,13 +5,13 @@
 Retrieve information about OpenAlbion's categories for weapon.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v1/categories**
+- Endpoint: **https://api.openalbion.com/api/v2/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `weapon`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v1/categories?type=weapon
+GET https://api.openalbion.com/api/v2/categories?type=weapon
 ```
 
 Example Response:
@@ -46,13 +46,13 @@ Example Response:
 Retrieve information about OpenAlbion's categories for armor.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v1/categories**
+- Endpoint: **https://api.openalbion.com/api/v2/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `armor`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v1/categories?type=armor
+GET https://api.openalbion.com/api/v2/categories?type=armor
 ```
 
 Example Response:
@@ -86,13 +86,13 @@ Example Response:
 There are main three categories for accessory. 
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v1/categories**
+- Endpoint: **https://api.openalbion.com/api/v2/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `accessory`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v1/categories?type=accessory
+GET https://api.openalbion.com/api/v2/categories?type=accessory
 ```
 
 Example Response:
@@ -142,6 +142,67 @@ Example Response:
                     "id": 42,
                     "name": "Mules",
                     "type": "accessory"
+                },
+                {...}
+            ]
+        }
+    ]
+}
+```
+
+## Get Categories For Consumable
+
+- Food
+- Potion
+
+There are main two categories for consumable. 
+
+- Method: GET
+- Endpoint: **https://api.openalbion.com/api/v2/categories**
+- Query Parameters:
+  - `type`: Filter the categories by type. Example: `consumable`
+
+Example Request:
+```http
+GET https://api.openalbion.com/api/v2/categories?type=consumable
+```
+
+Example Response:
+```json
+{
+    "data": [
+        {
+            "id": 52,
+            "name": "Foods",
+            "type": "consumable",
+            "subcategories": [
+                {
+                    "id": 53,
+                    "name": "Omelette",
+                    "type": "consumable"
+                },
+                {
+                    "id": 59,
+                    "name": "Roast",
+                    "type": "consumable"
+                },
+                {...}
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Potions",
+            "type": "consumable",
+            "subcategories": [
+                {
+                    "id": 61,
+                    "name": "Energy",
+                    "type": "consumable"
+                },
+                {
+                    "id": 68,
+                    "name": "Focus",
+                    "type": "consumable"
                 },
                 {...}
             ]

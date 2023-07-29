@@ -5,11 +5,11 @@
 Retrieve information about spells by weapon.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v1/spells/weapon/{weapon_id}**
+- Endpoint: **https://api.openalbion.com/api/v2/spells/weapon/{weapon_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v1/spells/weapon/1
+GET https://api.openalbion.com/api/v2/spells/weapon/1
 ```
 
 Example Response:
@@ -102,11 +102,11 @@ Example Response:
 Retrieve information about spells by armor.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v1/spells/armor/{armor_id}**
+- Endpoint: **https://api.openalbion.com/api/v2/spells/armor/{armor_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v1/spells/armor/1
+GET https://api.openalbion.com/api/v2/spells/armor/1
 ```
 
 Example Response:
@@ -161,11 +161,11 @@ Example Response:
 Retrieve information about spells by accessory.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v1/spells/accessory/{accessory_id}**
+- Endpoint: **https://api.openalbion.com/api/v2/spells/accessory/{accessory_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v1/spells/accessory/3
+GET https://api.openalbion.com/api/v2/spells/accessory/3
 ```
 
 Example Response:

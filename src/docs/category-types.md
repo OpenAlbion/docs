@@ -5,4 +5,4 @@
 | weapon | Weapon |
 | armor | Armor |
 | accessory | Accessories |
-| mount | Mounts |
+| consumable | Consumable |
