@@ -1,19 +1,22 @@
 {
-  "name": "docs",
-  "version": "0.0.1",
-  "description": "OpenAlbion is a free and open-source platform providing Albion Online data and an API.",
-  "main": "index.js",
-  "authors": {
-    "name": "Pyae Sone Aung",
-    "email": "pyaesoneaungrgn@gmail.com"
-  },
-  "repository": "https://github.com/OpenAlbion/docs/docs",
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.3"
-  }
+    "scripts": {
+        "start": "npm run docs:dev",
+        "docs:build": "vitepress build",
+        "docs:dev": "vitepress dev",
+        "docs:preview": "vitepress preview"
+    },
+    "dependencies": {
+        "@hempworks/pilgrim": "github:PyaeSoneAungRgn/pilgrim-theme",
+        "@tailwindcss/typography": "^0.5.9",
+        "autoprefixer": "^10.4.14",
+        "tailwindcss": "^3.3.2",
+        "vitepress": "^1.0.0-beta.1"
+    },
+    "postcss": {
+        "plugins": {
+            "tailwindcss": {},
+            "autoprefixer": {}
+        }
+    },
+    "type": "module"
 }

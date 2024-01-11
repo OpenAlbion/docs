@@ -5,11 +5,11 @@
 Retrieve information about armor stats by armor.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/armor-stats/armor/{armor_id}**
+- Endpoint: **https://api.openalbion.com/api/v3/armor-stats/armor/{armor_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/armor-stats/armor/1
+GET https://api.openalbion.com/api/v3/armor-stats/armor/1
 ```
 
 Example Response:

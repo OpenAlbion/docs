@@ -5,11 +5,11 @@
 Retrieve information about consumable craftings by consumable.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/consumable-craftings/consumable/{consumable_id}**
+- Endpoint: **https://api.openalbion.com/api/v3/consumable-craftings/consumable/{consumable_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/consumable-craftings/consumable/18
+GET https://api.openalbion.com/api/v3/consumable-craftings/consumable/18
 ```
 
 Example Response:

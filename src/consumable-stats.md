@@ -5,11 +5,11 @@
 Retrieve information about consumable stats by consumable.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/consumable-stats/consumable/{consumable_id}**
+- Endpoint: **https://api.openalbion.com/api/v3/consumable-stats/consumable/{consumable_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/consumable-stats/consumable/18
+GET https://api.openalbion.com/api/v3/consumable-stats/consumable/18
 ```
 
 Example Response:

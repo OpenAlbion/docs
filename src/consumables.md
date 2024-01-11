@@ -5,11 +5,11 @@
 Retrieve information about consumables.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/consumables**
+- Endpoint: **https://api.openalbion.com/api/v3/consumables**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/consumables
+GET https://api.openalbion.com/api/v3/consumables
 ```
 
 Example Response:
@@ -44,13 +44,13 @@ Example Response:
 Retrieve information about consumables by category.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/consumables**
+- Endpoint: **https://api.openalbion.com/api/v3/consumables**
 - Query Parameters:
   - `category_id`: Filter the consumables by category. Example: `52`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/consumables?category_id=52
+GET https://api.openalbion.com/api/v3/consumables?category_id=52
 ```
 
 Example Response:
@@ -85,13 +85,13 @@ Example Response:
 Retrieve information about consumables by subcategory.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/consumables**
+- Endpoint: **https://api.openalbion.com/api/v3/consumables**
 - Query Parameters:
   - `subcategory_id`: Filter the consumables by subcategory. Example: `53`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/consumables?subcategory_id=53
+GET https://api.openalbion.com/api/v3/consumables?subcategory_id=53
 ```
 
 Example Response:
@@ -126,13 +126,13 @@ Example Response:
 Retrieve information about consumables by tier.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/consumables**
+- Endpoint: **https://api.openalbion.com/api/v3/consumables**
 - Query Parameters:
   - `tier`: Filter the consumables by tier. Example: `4`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/consumables?tier=4
+GET https://api.openalbion.com/api/v3/consumables?tier=4
 ```
 
 Example Response:

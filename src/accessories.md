@@ -5,11 +5,11 @@
 Retrieve information about accessories.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/accessories**
+- Endpoint: **https://api.openalbion.com/api/v3/accessories**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/accessories
+GET https://api.openalbion.com/api/v3/accessories
 ```
 
 Example Response:
@@ -42,13 +42,13 @@ Example Response:
 Retrieve information about accessories by category.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/accessories**
+- Endpoint: **https://api.openalbion.com/api/v3/accessories**
 - Query Parameters:
   - `category_id`: Filter the accessories by category. Example: `35`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/accessories?category_id=35
+GET https://api.openalbion.com/api/v3/accessories?category_id=35
 ```
 
 Example Response:
@@ -81,13 +81,13 @@ Example Response:
 Retrieve information about accessories by subcategory.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/accessories**
+- Endpoint: **https://api.openalbion.com/api/v3/accessories**
 - Query Parameters:
   - `subcategory_id`: Filter the accessories by subcategory. Example: `37`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/accessories?subcategory_id=37
+GET https://api.openalbion.com/api/v3/accessories?subcategory_id=37
 ```
 
 Example Response:
@@ -120,13 +120,13 @@ Example Response:
 Retrieve information about accessories by tier.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/accessories**
+- Endpoint: **https://api.openalbion.com/api/v3/accessories**
 - Query Parameters:
   - `tier`: Filter the accessories by tier. Example: `4`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/accessories?tier=4
+GET https://api.openalbion.com/api/v3/accessories?tier=4
 ```
 
 Example Response:

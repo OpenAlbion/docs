@@ -5,11 +5,11 @@
 Retrieve information about weapon stats by weapon.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/weapon-stats/weapon/{weapon_id}**
+- Endpoint: **https://api.openalbion.com/api/v3/weapon-stats/weapon/{weapon_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/weapon-stats/weapon/2
+GET https://api.openalbion.com/api/v3/weapon-stats/weapon/2
 ```
 
 Example Response:

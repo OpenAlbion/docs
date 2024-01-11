@@ -5,13 +5,13 @@
 Retrieve information about OpenAlbion's categories for weapon.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/categories**
+- Endpoint: **https://api.openalbion.com/api/v3/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `weapon`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/categories?type=weapon
+GET https://api.openalbion.com/api/v3/categories?type=weapon
 ```
 
 Example Response:
@@ -46,13 +46,13 @@ Example Response:
 Retrieve information about OpenAlbion's categories for armor.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/categories**
+- Endpoint: **https://api.openalbion.com/api/v3/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `armor`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/categories?type=armor
+GET https://api.openalbion.com/api/v3/categories?type=armor
 ```
 
 Example Response:
@@ -86,13 +86,13 @@ Example Response:
 There are main three categories for accessory. 
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/categories**
+- Endpoint: **https://api.openalbion.com/api/v3/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `accessory`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/categories?type=accessory
+GET https://api.openalbion.com/api/v3/categories?type=accessory
 ```
 
 Example Response:
@@ -158,13 +158,13 @@ Example Response:
 There are main two categories for consumable. 
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/categories**
+- Endpoint: **https://api.openalbion.com/api/v3/categories**
 - Query Parameters:
   - `type`: Filter the categories by type. Example: `consumable`
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/categories?type=consumable
+GET https://api.openalbion.com/api/v3/categories?type=consumable
 ```
 
 Example Response:

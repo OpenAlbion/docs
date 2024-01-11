@@ -5,11 +5,11 @@
 Retrieve information about accessory stats by accessory.
 
 - Method: GET
-- Endpoint: **https://api.openalbion.com/api/v2/accessory-stats/accessory/{accessory_id}**
+- Endpoint: **https://api.openalbion.com/api/v3/accessory-stats/accessory/{accessory_id}**
 
 Example Request:
 ```http
-GET https://api.openalbion.com/api/v2/accessory-stats/accessory/1
+GET https://api.openalbion.com/api/v3/accessory-stats/accessory/1
 ```
 
 Example Response:
