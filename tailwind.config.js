@@ -8,7 +8,7 @@ const primary = {
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   presets: [
-    { ...tailwindConfig, darkMode: false },
+    { ...tailwindConfig },
   ],
 
   content: [
