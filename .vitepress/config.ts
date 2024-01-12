@@ -9,6 +9,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     base: '/',
     cleanUrls: false,
     srcDir: 'src',
+    sitemap: {
+        hostname: 'https://openalbion.com'
+    }
 
     head: [
         ['link', {
