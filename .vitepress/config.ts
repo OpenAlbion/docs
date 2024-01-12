@@ -11,7 +11,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     srcDir: 'src',
     sitemap: {
         hostname: 'https://openalbion.com'
-    }
+    },
 
     head: [
         ['link', {
